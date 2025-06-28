@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Winkelmandje | Pizzeria Sole Machina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Pizzeria Sole Machine</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepagina.html" >Home</a></li>
+                <li><a href="winkelmandje.html" class="active">Winkelmandje</a></li>
+                <li><a href="contactformulier.html">Contact</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="detailoverzicht.html">Detailoverzicht</a></li>
+                <li><a href="inlog.html">Inloggen</a></li>
+                <li><a href="registreren.html" class="btn-register">Registreren</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Winkelmandje Sectie -->
+    <section id="winkelmandje">
+        <h2>Jouw Winkelmandje</h2>
+        <div class="mandje-content">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Aantal</th>
+                        <th>Prijs</th>
+                        <th>Totaal</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pizza Margherita</td>
+                        <td><input type="number" value="1" min="1" class="quantity" /></td>
+                        <td>€8,00</td>
+                        <td>€8,00</td>
+                    </tr>
+                    <tr>
+                        <td>Pizza Pepperoni</td>
+                        <td><input type="number" value="2" min="1" class="quantity" /></td>
+                        <td>€10,00</td>
+                        <td>€20,00</td>
+                    </tr>
+                    <tr>
+                        <td>Cola</td>
+                        <td><input type="number" value="1" min="1" class="quantity" /></td>
+                        <td>€2,00</td>
+                        <td>€2,00</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="total-betaling">
+                <p><strong>Subtotaal:</strong> €30,00</p>
+                <button>Bestelling Plaatsen</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pizzeria Sole Machina. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,32 @@
+<?php
+function showHeader($searchbar)
+{
+    ?>
+    <nav class="navbar navbar-expand-lg bg-light border-bottom rounded-bottom shadow">
+        <div class="container-fluid d-flex align-items-start">
+            <a class="navbar-brand" href="index.php">
+                <img src="Images/EenmaalAndermaal.png" alt="Mijn Logo" width="75" height="75">
+            </a>
+
+            <?php if ($searchbar) { ?>
+                <form class="d-flex align-self-center" role="search">
+                    <input class="form-control me-2 rounded-pill " type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-danger rounded-pill" type="submit">Search</button>
+                </form>
+            <?php } ?>
+            <div class=ovaal-om-iconen>
+                <a class="navbar-brand" href="accountGegevens.php">
+                    <img src="Images/account.png" alt="icoon" width="75" height="75">
+                </a>
+                <a class="navbar-brand" href="favorieten.php">
+                    <img src="Images/favoriten.png" alt="icoon" width="75" height="75">
+                </a>
+                <a class="navbar-brand" href="veilingaanmaken.php">
+                    <img src="Images/Bieden.png" alt="icoon" width="75" height="75">
+                </a>
+            </div>
+        </div>
+    </nav>
+    <?php
+}
+?>

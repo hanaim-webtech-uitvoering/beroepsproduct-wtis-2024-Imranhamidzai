@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inloggen | Pizzeria Sole Machina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Pizzeria Sole Machina</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepagina.html" >Home</a></li>
+                <li><a href="winkelmandje.html">Winkelmandje</a></li>
+                <li><a href="contactformulier.html">Contact</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="inlog.html" class="active">Inloggen</a></li>
+                <li><a href="registreren.html" class="btn-register">Registreren</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Inlogformulier sectie -->
+    <section id="login">
+        <div class="login-container">
+            <h2>Inloggen</h2>
+            <p>Selecteer je rol:</p>
+            
+            <div class="role-selection">
+                <button class="role-btn klant-btn" onclick="location.href='inlogklant.html'">Klant</button>
+                <button class="role-btn medewerker-btn" onclick="location.href='loginpers.html'">Medewerker</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pizzeria Sole Machina. Alle rechten voorbehouden.</p>
+        <a href="privacy.html" class="btn-privacy">Privacyverklaring</a>
+    </footer>
+
+</body>
+</html>

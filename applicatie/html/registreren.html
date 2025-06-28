@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registreren | Pizzeria Sole Machine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <h1>Pizzeria Sole Machine</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepagina.html" >Home</a></li>
+                <li><a href="winkelmandje.html">Winkelmandje</a></li>
+                <li><a href="contactformulier.html">Contact</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="detailoverzicht.html">Detailoverzicht</a></li>
+                <li><a href="inlog.html">Inloggen</a></li>
+                <li><a href="registreren.html" class="avtive">Registreren</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+<!-- Registratie Sectie -->
+<section id="registratie">
+    <div class="registratie-container">
+        <h2>Registreer een nieuw account</h2>
+        <form action="registratie_verwerkt.html" method="POST">
+            
+            <div class="form-group">
+                <label for="voornaam">Voornaam:</label>
+                <input type="text" id="voornaam" name="voornaam" placeholder="Voer je voornaam in" required>
+            </div>
+
+            <div class="form-group">
+                <label for="achternaam">Achternaam:</label>
+                <input type="text" id="achternaam" name="achternaam" placeholder="Voer je achternaam in" required>
+            </div>
+
+            <div class="form-group">
+                <label for="straat">Straatnaam:</label>
+                <input type="text" id="straat" name="straat" placeholder="Straatnaam" required>
+            </div>
+
+            <div class="form-group">
+                <label for="huisnummer">Huisnummer:</label>
+                <input type="text" id="huisnummer" name="huisnummer" placeholder="Huisnummer" required>
+            </div>
+
+            <div class="form-group">
+                <label for="postcode">Postcode:</label>
+                <input type="text" id="postcode" name="postcode" placeholder="Postcode" required>
+            </div>
+
+            <div class="form-group">
+                <label for="plaats">Plaats:</label>
+                <input type="text" id="plaats" name="plaats" placeholder="Plaats" required>
+            </div>
+
+            <div class="form-group">
+                <label for="land">Land:</label>
+                <input type="text" id="land" name="land" placeholder="Land" required>
+            </div>
+
+            <div class="form-group">
+                <label for="telefoon">Telefoonnummer:</label>
+                <input type="tel" id="telefoon" name="telefoon" placeholder="Voer je telefoonnummer in" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-mailadres:</label>
+                <input type="email" id="email" name="email" placeholder="Voer je e-mailadres in" required>
+            </div>
+
+            <div class="form-group">
+                <label for="wachtwoord">Wachtwoord:</label>
+                <input type="password" id="wachtwoord" name="wachtwoord" placeholder="Kies een wachtwoord" required>
+            </div>
+
+            <div class="form-group">
+                <label for="bevestig-wachtwoord">Bevestig wachtwoord:</label>
+                <input type="password" id="bevestig-wachtwoord" name="bevestig-wachtwoord" placeholder="Herhaal je wachtwoord" required>
+            </div>
+
+            <button type="submit" class="btn-register">Registreren</button>
+        </form>
+    </div>
+</section>
+
+
+    
+
+
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pizzeria Sole Machine. Alle rechten voorbehouden.</p>
+    </footer>
+
+</body>
+</html>

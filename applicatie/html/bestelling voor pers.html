@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard | Pizzeria Sole Machina</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigatiebalk -->
+    <header>
+        <div class="logo">
+            <h1>Pizzeria Sole Machina</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="homepagina.html">Home</a></li>
+                <li><a href="bestelling voor pers.html">Bestellingen</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Bestellingen Sectie -->
+    <section id="bestellingen">
+        <h2>Actieve Bestellingen</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Bestelling ID</th>
+                    <th>Naam</th>
+                    <th>Status</th>
+                    <th>Acties</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>#1234</td>
+                    <td>Jan de Vries</td>
+                    <td><span class="status status-klaar">Klaar</span></td>
+                    <td><button class="btn-wijzig">Wijzigen</button></td>
+                </tr>
+                <tr>
+                    <td>#5678</td>
+                    <td>Anne Jansen</td>
+                    <td><span class="status status-in-progress">In Behandeling</span></td>
+                    <td><button class="btn-wijzig">Wijzigen</button></td>
+                </tr>
+                <tr>
+                    <td>#9101</td>
+                    <td>Mark de Groot</td>
+                    <td><span class="status status-wacht">Wachtend</span></td>
+                    <td><button class="btn-wijzig">Wijzigen</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Pizzeria Sole Machina. Alle rechten voorbehouden.</p>
+        <a href="privacy.html" class="btn-privacy">Privacyverklaring</a>
+    </footer>
+
+</body>
+</html>
